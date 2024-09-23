@@ -1,6 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Landing } from './components/Landing';
+import { Aboutus } from './components/Aboutus';
+import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
+import { Layout } from './Layout';
+import { Consultation } from './components/Consultation';
 import './App.css'
 
 function App() {
@@ -8,7 +13,9 @@ function App() {
 
   return (
     <>
-    <h1 classname="text-orange-400"> PMHS </h1>
+    
+    
+    {/* <Consultation/> */}
     </>
   )
 }
