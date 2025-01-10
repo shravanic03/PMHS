@@ -1,11 +1,6 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Landing } from './components/Landing';
-import { Aboutus } from './components/Aboutus';
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-import { Layout } from './Layout';
-import { Consultation } from './components/Consultation';
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -13,7 +8,11 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
     {/* <Consultation/> */}
+=======
+    <h1 classname="text-orange-400"> PMHS </h1>
+>>>>>>> parent of 1c8b38f (Frontend)
     </>
   )
 }
