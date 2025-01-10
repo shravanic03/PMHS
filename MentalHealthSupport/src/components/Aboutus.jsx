@@ -12,7 +12,7 @@ export function Aboutus(props) {
 
     return (
         <>
-        <Navbar/>
+        <Navbar />
         <div
       id="accordion-open"
       className="flex flex-col w-full h-screen bg-gradient-to-r from-[#a9acec] to-white max-w-6xl px-4 mx-auto my-8"
