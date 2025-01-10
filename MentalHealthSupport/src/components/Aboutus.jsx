@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar } from './Navbar'
 import { Footer } from './Footer'
 import { useState } from 'react';
+import img from "/Users/ayush/Downloads/WhatsApp Image 2024-08-06 at 12.31.08.jpeg"
 export function Aboutus(props) {
     const [openAccordion, setOpenAccordion] = useState(null);
 
@@ -195,9 +196,7 @@ We offer support to help you build resilience and develop positive coping mechan
           } p-5 border border-b-0 border-gray-200 dark:border-gray-700`}
         >
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-            Flowbite is first conceptualized and designed using the Figma
-            software so everything you see in the library has a design
-            equivalent in our Figma file.
+          <img src={img} height={40} width={40} />
           </p>
           <p className="text-gray-500 dark:text-gray-400">
             Check out the{' '}
@@ -212,6 +211,7 @@ We offer support to help you build resilience and develop positive coping mechan
           </p>
         </div>
       </div>
+   
     </div>              <Footer/>
             
         </>
