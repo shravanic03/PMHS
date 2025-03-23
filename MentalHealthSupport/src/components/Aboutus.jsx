@@ -12,7 +12,7 @@ export function Aboutus(props) {
 
     return (
         <>
-        <Navbar/>
+        <Navbar />
         <div
       id="accordion-open"
       className="flex flex-col w-full h-screen bg-gradient-to-r from-[#a9acec] to-white max-w-6xl px-4 mx-auto my-8"
@@ -195,9 +195,6 @@ We offer support to help you build resilience and develop positive coping mechan
           } p-5 border border-b-0 border-gray-200 dark:border-gray-700`}
         >
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-            Flowbite is first conceptualized and designed using the Figma
-            software so everything you see in the library has a design
-            equivalent in our Figma file.
           </p>
           <p className="text-gray-500 dark:text-gray-400">
             Check out the{' '}
@@ -212,8 +209,10 @@ We offer support to help you build resilience and develop positive coping mechan
           </p>
         </div>
       </div>
+   
     </div>              <Footer/>
             
         </>
     )
 }
+
