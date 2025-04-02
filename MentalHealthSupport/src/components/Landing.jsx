@@ -145,7 +145,7 @@ export function Landing(props) {
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">MUSIC</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Listening to calming music can be a powerful way to soothe the mind and relax the body. Gentle melodies, soft instrumentals, or even nature sounds can help reduce stress and create a peaceful atmosphere.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <a href="/songs" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
           Read more
           <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -164,7 +164,7 @@ export function Landing(props) {
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">BOOKS</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Reading a good book can be an excellent way to relax and find inner peace. Whether it’s a novel that takes you on a journey, a self-help book offering mindfulness techniques, or a collection of poetry that speaks to your heart, books can provide comfort and perspective. </p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <a href="/books" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
           Read more
           <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -183,7 +183,7 @@ export function Landing(props) {
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">MOVIES</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Watching a feel-good movie can provide a comforting escape and help you unwind. Movies with uplifting stories, beautiful visuals, or light-hearted humor can elevate your mood and offer a refreshing break from daily stress.</p>
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <a href="/movies" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
           Read more
           <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
